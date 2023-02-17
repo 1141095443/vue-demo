@@ -1,4 +1,5 @@
 import "./css/app.css";
+import "./typescript/say-hi.ts";
 import { createApp } from "vue";
 import App from "./App.vue";
 
