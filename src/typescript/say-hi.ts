@@ -1,4 +1,3 @@
-function say(value: string) {
-    return "lly 说: "+ value
+export default function say(value: string) {
+    (document.querySelector('#ngm') as HTMLElement).innerHTML = "lly 说: "+ value
 }
-(document.querySelector('#ngm') as HTMLElement).innerHTML = say('你干嘛~哈哈')
